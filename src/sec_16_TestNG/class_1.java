@@ -11,7 +11,12 @@ public class class_1 {
 		System.out.println("This will be executed at last of the TEST in which this class 1 is mentioned");
 		System.out.println("Added this new line for git understanding purpose");
 		System.out.println("Same with this one");
+
 		
+
+System.out.println("Same with this two");
+		System.out.println("Same with this three");
+		System.out.println("Same with this four");
 	}
 
 	@Test(groups = { "Regression" })
