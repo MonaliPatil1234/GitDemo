@@ -17,11 +17,13 @@ public class class_4 {
 		System.out.println("class 4 Web Login API method");
 		System.out.println(urlname);
 		System.out.println(key);
+		System.out.println("For learning git branch concept, added this line");
 	}
 
 	@Test
 	public void mobileLoginAPI() {
 		System.out.println("class 4 mobile Login API method");
+		System.out.println("Added this line to understand git branch mechanism");
 	}
 
 	@Test
