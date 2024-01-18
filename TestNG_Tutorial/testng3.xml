@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG_XML_Demo">
+	<test thread-count="5" name="Test_No_1">
+		<groups>
+			<run>
+				<include name="Regression" />
+				<!--//IF YOU USE exclude INSTEAD OF include IN TESTNG3.XML FILE, ALL TESTS WILL
+				 BE EXECUTED EXCEPT THE ONES MENTIONED AS REGRESSION-->
+			</run>
+		</groups>
+		<classes>
+
+			<class name="sec_16_TestNG.class_1" />
+			<class name="sec_16_TestNG.class_2" />
+			<class name="sec_16_TestNG.class_3" />
+			<class name="sec_16_TestNG.class_4" />
+		</classes>
+	</test>
+	<!-- Test -->
+</suite> <!-- Suite -->
