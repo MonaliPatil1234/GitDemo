@@ -1,0 +1,210 @@
+17:55:32.966 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:55:32.966 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:55:32.991 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:55:32.991 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:55:35.038 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+17:55:35.074 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+17:55:35.945 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:55:35.950 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:55:37.394 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:55:37.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:55:49.063 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:55:49.063 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:56:12.797 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "C:\Users\madhu/.browserstack/BrowserStackLocal.exe": CreateProcess error=32, The process cannot access the file because it is being used by another process.
+17:56:12.798 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed java.io.IOException: Cannot run program "C:\Users\madhu/.browserstack/BrowserStackLocal.exe": CreateProcess error=32, The process cannot access the file because it is being used by another process.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:56:13.072 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/uyarddya1mgbklhp5ctk07npnpuvwlyaxzt3gq6q to view build report, insights, and many more debugging information all at one place!
+
+17:56:36.527 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+17:56:36.528 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:56:36.765 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wjuanw6l6i2fwjibiwymz1bremsbzcvu2zdeop5m to view build report, insights, and many more debugging information all at one place!
+
+17:59:02.571 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:59:02.579 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:59:03.184 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+17:59:03.343 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:59:04.185 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:59:10.397 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:59:31.734 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+17:59:31.736 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:59:32.028 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/acwss5i0j87bfrfbrjhz3qhtg8zyxbnphtaghmbi to view build report, insights, and many more debugging information all at one place!
+
+14:08:53.037 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+14:08:53.050 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:08:53.761 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+14:08:54.570 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:08:55.835 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:09:02.813 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:09:24.912 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:09:24.913 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:09:25.141 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/jtkipumtvo3vyoycvycfnlooxg5b4lg6wnorccaa to view build report, insights, and many more debugging information all at one place!
+
+14:13:01.222 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:13:01.276 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:13:02.367 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:13:30.140 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:13:30.141 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:15:37.711 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:15:38.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:15:43.867 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:15:59.763 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:15:59.764 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:35:54.032 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+14:35:54.042 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:35:54.598 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+14:35:54.747 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:35:55.764 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:36:21.460 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:36:42.802 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:36:42.803 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:36:43.048 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/3j5ks8vom1s4iixazwa4nxtp9pi5mcbwms7mgf5q to view build report, insights, and many more debugging information all at one place!
+
+14:42:31.563 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+14:42:31.585 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:42:32.122 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+14:42:32.254 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:42:32.963 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:42:38.395 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:42:51.381 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:42:51.382 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:42:51.615 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/feagdzorfu0jdwbawtvsmxy7xmlduyqbm5hp7glb to view build report, insights, and many more debugging information all at one place!
+
+14:48:25.890 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+14:48:25.898 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:48:26.429 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+14:48:26.567 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:48:27.333 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:48:32.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:48:44.735 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:48:44.736 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:48:44.963 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sstuypeeb86r2zrksz33f0orvkiv28ojbecfa4ig to view build report, insights, and many more debugging information all at one place!
+
+14:50:44.502 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+14:50:44.512 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:50:45.051 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+14:50:45.177 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:50:45.897 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:50:51.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+14:51:06.421 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+14:51:06.422 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:51:06.667 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4g3qpbz8d8swhtfbmdhqd2xsuxsppdtfxitdvucx to view build report, insights, and many more debugging information all at one place!
+
+15:00:29.058 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+15:00:29.066 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:00:29.563 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+15:00:29.698 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:00:30.483 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+15:00:35.679 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+15:00:47.388 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+15:00:47.390 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+15:00:47.625 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/zka45x8tbjapz24bw5cgwnoj08wmv2zabdkfacus to view build report, insights, and many more debugging information all at one place!
+
+17:08:27.206 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.8.3
+17:08:27.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:08:28.040 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\madhu\eclipse-workspace\CrossBrowserTesting\browserstack.yml
+17:08:28.325 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:08:29.809 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:08:35.872 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:09:04.521 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+17:09:04.523 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:09:04.786 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/i6mtbmtwmexbrv4yqvdanak54h4uot6z6z2jg7gy to view build report, insights, and many more debugging information all at one place!
+
